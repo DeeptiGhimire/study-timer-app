@@ -1,0 +1,106 @@
+.streak-container {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.streak-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a2e;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.streak-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.streak-stat {
+  text-align: center;
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.streak-stat-icon {
+  font-size: 24px;
+}
+
+.streak-stat-icon.fire { color: #f39c12; }
+.streak-stat-icon.trophy { color: #6c63ff; }
+.streak-stat-icon.check { color: #2ecc71; }
+
+.streak-number {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+.streak-label {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+.streak-week {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 16px;
+}
+
+.streak-week-title {
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.streak-days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.streak-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+}
+
+.streak-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.streak-dot.active {
+  background: #6c63ff;
+}
+
+.streak-dot.inactive {
+  background: #eee;
+}
+
+.streak-day-label {
+  font-size: 11px;
+  color: #888;
+} 

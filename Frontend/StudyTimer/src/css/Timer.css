@@ -1,0 +1,133 @@
+.timer-container {
+  min-height: 100vh;
+  background: #f0f4f8;
+  padding: 24px 24px 24px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.timer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.timer-title {
+  font-size: 24px;
+  color: #1a1a2e;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.welcome-text {
+  font-size: 15px;
+  color: #666;
+  font-weight: 500;
+}
+
+.timer-box {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.timer-display {
+  font-size: 72px;
+  font-weight: 700;
+  color: #6c63ff;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  font-family: monospace;
+}
+
+.subject-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  outline: none;
+  color: #333;
+  background: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.subject-input:focus {
+  border-color: #6c63ff;
+}
+
+.subject-input:disabled {
+  background: #eee;
+  cursor: not-allowed;
+}
+
+.timer-message {
+  color: #2ecc71;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.ctrl-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ctrl-btn.start {
+  background: #2ecc71;
+  color: white;
+}
+
+.ctrl-btn.start:hover {
+  background: #27ae60;
+}
+
+.ctrl-btn.pause {
+  background: #f39c12;
+  color: white;
+}
+
+.ctrl-btn.pause:hover {
+  background: #d68910;
+}
+
+.ctrl-btn.stop {
+  background: #e74c3c;
+  color: white;
+}
+
+.ctrl-btn.stop:hover {
+  background: #c0392b;
+}
+
+.ctrl-btn.reset {
+  background: #95a5a6;
+  color: white;
+}
+
+.ctrl-btn.reset:hover {
+  background: #7f8c8d;
+} 

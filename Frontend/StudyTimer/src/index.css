@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  margin-left: 210px;
+  flex: 1;
+  width: calc(100% - 210px);
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+.main-content-full {
+  margin-left: 0;
+  flex: 1;
+  width: 100%;
+}
+
+body.dark {
+  background: #0f0f1a !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .dashboard-container,
+body.dark .timer-container,
+body.dark .tasks-container,
+body.dark .history-container,
+body.dark .profile-container {
+  background: #0f0f1a !important;
+}
+
+body.dark .stat-card,
+body.dark .recent-box,
+body.dark .task-card,
+body.dark .task-form,
+body.dark .filter-row,
+body.dark .history-card,
+body.dark .summary-card,
+body.dark .profile-card,
+body.dark .pstat-card,
+body.dark .timer-box,
+body.dark .goal-container,
+body.dark .reminder-container,
+body.dark .streak-container {
+  background: #1e1e2e !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .dashboard-title,
+body.dark .timer-title,
+body.dark .tasks-title,
+body.dark .history-title,
+body.dark .profile-title,
+body.dark .recent-title,
+body.dark .stat-value,
+body.dark .summary-value,
+body.dark .pstat-value,
+body.dark .task-info h3,
+body.dark .history-subject,
+body.dark .profile-name,
+body.dark .timer-display,
+body.dark .goal-title,
+body.dark .reminder-title,
+body.dark .streak-title,
+body.dark .streak-number,
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: #ffffff !important;
+}
+
+body.dark .stat-label,
+body.dark .summary-label,
+body.dark .pstat-label,
+body.dark .task-info p,
+body.dark .history-date,
+body.dark .profile-email,
+body.dark .welcome-text,
+body.dark .welcome-name,
+body.dark .no-tasks,
+body.dark .no-data,
+body.dark .goal-progress-text,
+body.dark .reminder-label,
+body.dark .reminder-countdown,
+body.dark .streak-label,
+body.dark .streak-week-title,
+body.dark .streak-day-label,
+body.dark .filter-label {
+  color: #aaaaaa !important;
+}
+
+body.dark .subject-input,
+body.dark .name-input,
+body.dark .task-form input,
+body.dark .task-form select,
+body.dark .goal-input,
+body.dark .reminder-input,
+body.dark .filter-select {
+  background: #2a2a3e !important;
+  color: #e0e0e0 !important;
+  border-color: #444 !important;
+}
+
+body.dark .session-row {
+  border-bottom-color: #2a2a3e !important;
+}
+
+body.dark .session-subject {
+  color: #e0e0e0 !important;
+}
+
+body.dark .goal-progress-bar {
+  background: #2a2a3e !important;
+}
+
+body.dark .streak-stat {
+  background: #2a2a3e !important;
+}
+
+body.dark .streak-week {
+  border-top-color: #2a2a3e !important;
+}
+
+body.dark .streak-dot.inactive {
+  background: #2a2a3e !important;
+}
+
+body.dark .auth-container {
+  background: #0f0f1a !important;
+}
+
+body.dark .auth-box {
+  background: #1e1e2e !important;
+}
+
+body.dark .auth-title {
+  color: #ffffff !important;
+}
+
+body.dark .input-group {
+  background: #2a2a3e !important;
+  border-color: #444 !important;
+}
+
+body.dark .input-group input {
+  color: #e0e0e0 !important;
+} 

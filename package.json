@@ -1,0 +1,22 @@
+{
+  "name": "timer-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd Backend && npm run dev",
+    "dev:frontend": "cd Frontend/StudyTimer && npm run dev",
+    "start:backend": "cd Backend && npm run start",
+    "start:frontend": "cd Frontend/StudyTimer && npm run preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "jest": "^30.4.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

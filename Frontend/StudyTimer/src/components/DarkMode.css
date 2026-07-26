@@ -1,0 +1,93 @@
+body.dark {
+  background-color: #0f0f1a !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark .dashboard-container,
+body.dark .timer-container,
+body.dark .tasks-container,
+body.dark .history-container,
+body.dark .profile-container {
+  background: #0f0f1a !important;
+}
+
+body.dark .stat-card,
+body.dark .recent-box,
+body.dark .task-card,
+body.dark .task-form,
+body.dark .history-card,
+body.dark .summary-card,
+body.dark .profile-card,
+body.dark .pstat-card,
+body.dark .timer-box {
+  background: #1e1e2e !important;
+  color: #e0e0e0 !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4) !important;
+}
+
+body.dark .dashboard-title,
+body.dark .timer-title,
+body.dark .tasks-title,
+body.dark .history-title,
+body.dark .profile-title,
+body.dark .recent-title,
+body.dark .stat-value,
+body.dark .summary-value,
+body.dark .pstat-value,
+body.dark .task-info h3,
+body.dark .history-subject,
+body.dark .profile-name,
+body.dark .timer-display {
+  color: #ffffff !important;
+}
+
+body.dark .stat-label,
+body.dark .summary-label,
+body.dark .pstat-label,
+body.dark .task-info p,
+body.dark .history-date,
+body.dark .profile-email,
+body.dark .welcome-text,
+body.dark .welcome-name,
+body.dark .no-tasks,
+body.dark .no-data {
+  color: #aaaaaa !important;
+}
+
+body.dark .subject-input,
+body.dark .name-input,
+body.dark .task-form input,
+body.dark .task-form select {
+  background: #2a2a3e !important;
+  color: #e0e0e0 !important;
+  border-color: #444 !important;
+}
+
+body.dark .session-row {
+  border-bottom-color: #2a2a3e !important;
+}
+
+body.dark .session-subject {
+  color: #e0e0e0 !important;
+}
+
+body.dark .auth-container {
+  background: #0f0f1a !important;
+}
+
+body.dark .auth-box {
+  background: #1e1e2e !important;
+}
+
+body.dark .auth-title {
+  color: #ffffff !important;
+}
+
+body.dark .input-group {
+  background: #2a2a3e !important;
+  border-color: #444 !important;
+}
+
+body.dark .input-group input {
+  color: #e0e0e0 !important;
+} 
